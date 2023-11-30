@@ -4,20 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee834c64-4d88-4acf-b0dc-37b70dc47235" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="ee834c64-4d88-4acf-b0dc-37b70dc47235" name="Changes" comment="Created the test project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/NGonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/Point2DTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/Point3DTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/PointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/PolylineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/QGonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/SegmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/TGonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeometryFigs/TrapezeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,9 +47,43 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="GeometryFigs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GeometryConsolePartWithTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GeometryFigs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GeometryFigs" />
+      <option name="MAIN_CLASS_NAME" value="GeometryFigs.PointTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PointTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,6 +93,19 @@
       <option name="presentableId" value="Default" />
       <updated>1701337381319</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created the test project">
+      <option name="closed" value="true" />
+      <created>1701338143822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701338143822</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created the test project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the test project" />
   </component>
 </project>
